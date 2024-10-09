@@ -8,8 +8,5 @@ RUN curl https://dl.min.io/client/mc/release/linux-amd64/mc \
 RUN chmod +x /usr/bin/mc
 #
 RUN apt-get update
-#RUN apt-get install -y snapd
-#RUN snap install mediainfo
-#RUN apt-get install -y mediainfo
-#RUN apt-get install -y ca-certificates
+RUN apt install -y mediainfo
 #
