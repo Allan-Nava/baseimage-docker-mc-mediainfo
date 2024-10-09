@@ -9,7 +9,7 @@ RUN chmod +x /usr/bin/mc
 #
 RUN apt-get update
 RUN apt-get install -y snapd
-RUN snap install -y mediainfo
+RUN snap install mediainfo
 #RUN apt-get install -y mediainfo
 #RUN apt-get install -y ca-certificates
 #
