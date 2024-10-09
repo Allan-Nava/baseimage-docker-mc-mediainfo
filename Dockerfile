@@ -7,5 +7,7 @@ RUN curl https://dl.min.io/client/mc/release/linux-amd64/mc \
 #
 RUN chmod +x /usr/bin/mc
 #
-RUN apt-get install -y ca-certificates mediainfo
+RUN add-apt-repository ppa:mediainfo/ppa
+RUN apt-get install -y mediainfo
+#RUN apt-get install -y ca-certificates
 #
